@@ -27,7 +27,7 @@ public class SistemaReservasDeportivas {
  * @param idPista id de la pista
  * @param fecha fecha de la reserva
  * @param duracion duración de la reserva
- * @return devuelve true si se puede reservar y false si no
+ * @return devuelve true si se puede reservar y false si no.
  */
     public boolean reservarPista(Reserva reserva) {
         if (reserva.getIdPista()<0||reserva.getIdPista()>=MAX_PISTAS) {
@@ -75,7 +75,7 @@ public class SistemaReservasDeportivas {
 /**
  * Activa la iluminación
  * @param idPista id de la pista cuya iluminación se quiere activar
- * @return devuelve false si no encuentra la pista y true si sí
+ * @return devuelve false si no encuentra la pista y true si sí.
  */
     public boolean encenderLuces(int idPista) {
         if (idPista < 0 || idPista >= MAX_PISTAS) {

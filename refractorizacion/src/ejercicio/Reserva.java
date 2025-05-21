@@ -21,7 +21,7 @@ public class Reserva {
         this.duracion = duracion;
     }
 /**
- * Conseguir id de la pista
+ * Conseguir id de la pista.
  * @return devuelve el id de la pista
  */
     public int getIdPista() {

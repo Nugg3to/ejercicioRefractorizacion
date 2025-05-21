@@ -16,7 +16,7 @@ public class GestorIluminacion {
 	/**
 	 * Enciende la iluminación de una pista
 	 * @param idPista ID de la pista
-	 * @return true si se enciende, false si el ID es invalido
+	 * @return true si se enciende, false si el ID es invalido.
 	 */
 	public boolean encenderLuces(int idPista) {
 		if(idPista < 0 || idPista >= iluminacion.length) {
