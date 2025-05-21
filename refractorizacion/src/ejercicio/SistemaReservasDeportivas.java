@@ -23,7 +23,7 @@ public class SistemaReservasDeportivas {
         gestorIluminacion = new GestorIluminacion(MAX_PISTAS);
     }
 /**
- * Mira si la pista en cuestión se puede reservar
+ * Mira si la pista en cuestión se puede reservar.
  * @param idPista id de la pista
  * @param fecha fecha de la reserva
  * @param duracion duración de la reserva

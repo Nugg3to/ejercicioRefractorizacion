@@ -14,7 +14,7 @@ public class GestorIluminacion {
 	}
 
 	/**
-	 * Enciende la iluminación de una pista
+	 * Enciende la iluminación de una pista.
 	 * @param idPista ID de la pista
 	 * @return true si se enciende, false si el ID es invalido.
 	 */

@@ -28,7 +28,7 @@ public class Reserva {
         return idPista;
     }
 /**
- * Conseguir fecha
+ * Conseguir fecha.
  * @return devuelve la fecha
  */
     public LocalDate getFecha() {
