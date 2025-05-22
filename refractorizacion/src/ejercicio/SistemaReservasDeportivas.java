@@ -34,17 +34,12 @@ public class SistemaReservasDeportivas {
             return false; // ID de pista inválido
         }
         for (Reserva r : reservas) {
-            if (!esFechaDisponible(reserva.getIdPista(),reserva.getFecha())) {
+            if (!esFechaDisponible1(reserva.getIdPista(),reserva.getFecha())) {
                 return false; // La pista ya está reservada en esa fecha
             }
         }
         reservas.add(reserva);
         return true;
-    }
-    
-    private boolean esFechaDisponible(int idPista, LocalDate fecha) {
-	// TODO Auto-generated method stub
-	return false;
     }
 	
 /**
@@ -106,6 +101,6 @@ public class SistemaReservasDeportivas {
             return false; // ID de pista inválido
         }
         
-        return esFechaDisponible(idPista, fecha);
+        return esFechaDisponible1(idPista, fecha);
     }
 }
